@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/trains',[PageController::class, 'index']);
+Route::get('/trains',[TrainController::class, 'index']);
